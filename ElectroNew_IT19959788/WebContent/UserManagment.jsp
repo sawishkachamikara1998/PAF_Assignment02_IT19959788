@@ -10,14 +10,17 @@
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 <script src="Components/jquery-3.4.1.min.js"></script>
 <script src="Components/UserManagment.js"></script>
+
+
 </head>
 <body>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
-				<h1>User Management</h1>
+				<h1>Register</h1>
 
-				<form id="formUserManagment" name="formUserManagment" method="post" action="UserManagment.jsp">
+				<form class="login_form"  id="formUserManagment" name="formUserManagment" method="post" action="UserManagment.jsp">
 
 
 					Name: <input id="name" name="name" type="text"
@@ -56,5 +59,6 @@
 			</div>
 		</div>
 	</div>
+
 </body>
 </html>
